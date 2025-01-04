@@ -81,7 +81,7 @@ const Banner = () => {
                 </div>
             </div>
 
-            {/* Social Media Icons Section */}
+            
 
         </div>
     );
