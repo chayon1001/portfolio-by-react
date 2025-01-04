@@ -6,7 +6,7 @@ const MainLayouts = () => {
     return (
         <div className="bg-gradient-to-br from-[#1a0033] via-[#4b007d] to-[#240a2f] min-h-screen">
             <Navbar />
-            <Outlet />
+            <Outlet></Outlet>
         </div>
     );
 };
