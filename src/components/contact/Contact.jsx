@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
-import { FaSkype } from "react-icons/fa";
+
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1200px] w-full  rounded-lg shadow-lg overflow-hidden">
         {/* Left Side */}
         <div className="p-8 text-white flex flex-col justify-center">
-          <h2 className="text-4xl font-bold text-[orangered] mb-4 uppercase">
+          <h2 className="text-5xl font-bold text-[orangered] mb-4 uppercase">
             Contact me
           </h2>
           <h1 className="text-5xl font-extrabold mb-8">Let's work together!</h1>
