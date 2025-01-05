@@ -68,7 +68,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar w-10/12 mx-auto">
+        <div className="navbar w-10/12 mx-auto  sm:pb-16 md:pb-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -94,13 +94,18 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl">Portfolio.</a>
+                <a className="btn btn-ghost text-3xl ">Portfolio.</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="flex gap-10 items-center justify-center text-xl ">{links}</ul>
             </div>
-            <div className="navbar-end">
-                <a className="px-6 py-3 rounded-full bg-gradient-to-r from-[#dd2476] to-orange-500 text-white font-semibold shadow-lg hover:scale-105 transform duration-300">
+            <div className="navbar-end hidden md:flex">
+                <a
+                    href="https://www.resume.com/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 rounded-full bg-gradient-to-r from-[#dd2476] to-orange-500 text-white font-semibold shadow-lg hover:scale-105 transform duration-300"
+                >
                     Download CV
                 </a>
             </div>
